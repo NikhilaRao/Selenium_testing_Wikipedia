@@ -44,7 +44,7 @@ public class WikipediaTest{
         
         WebElement password = driver.findElement(By.id("wpPassword1"));
         password.clear();
-        password.sendKeys("9902576984");
+        password.sendKeys("********");
         
         WebElement login = driver.findElement(By.id("wpLoginAttempt"));
         login.click();
